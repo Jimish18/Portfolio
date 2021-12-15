@@ -10,6 +10,7 @@
     list-style: none;
     color: white;
     font-family: 'Play', 'sans-serif';
+    overflow-x: hidden;
 }
 
 nav
@@ -20,12 +21,14 @@ nav
     top: 20px;  
     width: 100vw; 
     z-index: 100; 
+    background-color: transparent;
 }
 
 #nav-menu
 {
     display: flex;
     margin: 10px auto;
+    background-color: transparent;
 }
 
 #nav-menu ul
@@ -34,12 +37,14 @@ nav
     flex-direction: row;  
     margin-bottom: 0;  
     padding-left: 0;
+    background-color: transparent;
 }
 
 #nav-menu ul li
 {
     margin-left: 25px;
     margin-right: 25px;
+    background-color: transparent;
 }
 
 #nav-menu ul li a
@@ -47,6 +52,7 @@ nav
     text-decoration: none;
     color: white;
     font-size: 25px;
+    background-color: transparent;
 }
 
 #logo
@@ -54,18 +60,22 @@ nav
     font-size: 35px;
     margin-left: 35px;
     position: absolute;
+    background-color: transparent;
 }
 
 #name_assets
 {
     padding-top: 280px;
-    /* padding-bottom: 200px; */
+    padding-bottom: 200px;    
 }
 
 #name_discription
 {
+    position: relative;
     max-width: 1240px;
     margin: auto;
+    z-index: 2;
+    background-color: transparent;
 }
 
 #grid
@@ -73,6 +83,12 @@ nav
     display: grid;
     grid-template-columns: 1fr 0.6fr;
     grid-column-gap: 15px;
+    background-color: transparent;
+}
+
+#name_discription_column
+{
+    background-color: transparent;
 }
 
 #name_discription_column h1
@@ -80,12 +96,13 @@ nav
     font-size: 72px;
     font-family: 'Special Elite', 'cursive';
     margin-bottom: 0;
+    background-color: transparent;
 }
 
 #name_discription_column p
 {
     font-size: 25px;
-    /* font-family: 'Special Elite', 'cursive'; */
+    background-color: transparent;
 }
 
 #name_discription_column button
@@ -106,5 +123,33 @@ nav
 
 #asset1
 {
-    
+    position: absolute;
+    right: -8%;
+    top: -70%;
+    opacity: 1;
+    z-index: 0;
+}
+
+#asset2
+{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    z-index: 0;
+    opacity: 1;
+    background-color: transparent;
+}
+
+#asset3
+{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 55%;
+    right: 25%;
+    z-index: 0;
+    opacity: 1;
+    background-color: transparent;
 }
