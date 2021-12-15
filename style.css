@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
 *
 {
     margin:  0;
@@ -6,6 +9,7 @@
     background-color: #0F0823;
     list-style: none;
     color: white;
+    font-family: 'Play', 'sans-serif';
 }
 
 nav
@@ -50,4 +54,52 @@ nav
     font-size: 35px;
     margin-left: 35px;
     position: absolute;
+}
+
+#name_assets
+{
+    padding-top: 280px;
+    /* padding-bottom: 200px; */
+}
+
+#name_discription
+{
+    max-width: 1240px;
+    margin: auto;
+}
+
+#grid
+{
+    display: grid;
+    grid-template-columns: 1fr 0.6fr;
+    grid-column-gap: 15px;
+}
+
+#name_discription_column h1
+{
+    font-size: 72px;
+    font-family: 'Special Elite', 'cursive';
+    margin-bottom: 0;
+}
+
+#name_discription_column p
+{
+    font-size: 25px;
+    /* font-family: 'Special Elite', 'cursive'; */
+}
+
+#name_discription_column button
+{    
+    border: none;
+    padding: 15px 55px;
+    font-size: 25px;
+    border-radius: 40px;
+}
+
+#button-container
+{
+    display: inline-block;
+    padding: 0.2rem;
+    border-radius: 60px;
+    background-image: linear-gradient(60deg,#edb8ff,#6148ff);
 }
