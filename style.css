@@ -13,13 +13,15 @@ nav
     display: flex;
     flex-direction: row;
     position: absolute;
-    top: 20px;    
+    top: 20px;  
+    width: 100vw; 
+    z-index: 100; 
 }
 
 #nav-menu
 {
     display: flex;
-    align-items: center;
+    margin: 10px auto;
 }
 
 #nav-menu ul
@@ -27,6 +29,7 @@ nav
     display: flex;
     flex-direction: row;  
     margin-bottom: 0;  
+    padding-left: 0;
 }
 
 #nav-menu ul li
@@ -46,4 +49,5 @@ nav
 {
     font-size: 35px;
     margin-left: 35px;
+    position: absolute;
 }
