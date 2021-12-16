@@ -27,7 +27,7 @@ nav
 #nav-menu
 {
     display: flex;
-    margin: 10px auto;
+    margin: 8px auto;
     background-color: transparent;
 }
 
@@ -51,13 +51,13 @@ nav
 {
     text-decoration: none;
     color: white;
-    font-size: 25px;
+    font-size: 22px;
     background-color: transparent;
 }
 
 #logo
 {
-    font-size: 35px;
+    font-size: 30px;
     margin-left: 35px;
     position: absolute;
     background-color: transparent;
@@ -93,7 +93,7 @@ nav
 
 #name_discription_column h1
 {
-    font-size: 72px;
+    font-size: 62px;
     font-family: 'Special Elite', 'cursive';
     margin-bottom: 0;
     background-color: transparent;
@@ -101,15 +101,15 @@ nav
 
 #name_discription_column p
 {
-    font-size: 25px;
+    font-size: 20px;
     background-color: transparent;
 }
 
 #name_discription_column button
 {    
     border: none;
-    padding: 15px 55px;
-    font-size: 25px;
+    padding: 10px 45px;
+    font-size: 20px;
     border-radius: 40px;
 }
 
@@ -124,16 +124,16 @@ nav
 #asset1
 {
     position: absolute;
-    right: -8%;
-    top: -70%;
+    right: -18%;
+    top: -92%;
     opacity: 1;
     z-index: 0;
 }
 
 #asset2
 {
-    height: 300px;
-    width: 300px;
+    height: 230px;
+    width: 230px;
     position: absolute;
     top: 10%;
     right: 10%;
@@ -144,11 +144,11 @@ nav
 
 #asset3
 {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     position: absolute;
-    top: 55%;
-    right: 25%;
+    top: 64%;
+    right: 22%;
     z-index: 0;
     opacity: 1;
     background-color: transparent;

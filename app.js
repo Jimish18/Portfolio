@@ -13,4 +13,5 @@ movementField.addEventListener("mousemove",function(e)
     
     asset2.style.transform = `translate(${x*0.02}px,${y*0.08}px)`;
     asset3.style.transform = `translate(-${x*0.02}px,-${y*0.08}px)`;
+    asset2.style.transformStyle = "preserve-3d";
 })
