@@ -188,6 +188,22 @@ nav
     border-radius: 52px;
     transform: rotateZ(5deg) scale3d(1,1,1);
     max-width: 90%;
-    margin: 0px auto;
-    
+    margin: 0px auto;  
+    position: relative;  
+    z-index: 2;
 }
+
+#img-background-div
+{
+    height: 94%;
+    position: absolute;
+    width: 91%;
+    z-index: 0;
+    background-color: brown;
+    border-radius: 65px;
+    left: 4.5%;
+    transform: rotateZ(-5deg) scale3d(1,1,1);
+    background-image: linear-gradient(140deg,#f7c28f,#176c75/*,#c1c9de*/);
+}
+
+
