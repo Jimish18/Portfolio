@@ -166,12 +166,14 @@ nav
     max-width: 1150px;
     margin: auto;
     position: relative;
+    overflow: visible;
 }
 
 #image_intro_container_grid
 {
     display: grid;
     grid-template-columns: 0.8fr 1fr;
+    overflow: visible;
 }
 
 #image_section
@@ -181,6 +183,7 @@ nav
     height: 490px;
     display: grid;
     align-items: center;
+    overflow: visible;
 }
 
 #profile_image
@@ -203,7 +206,21 @@ nav
     border-radius: 65px;
     left: 4.5%;
     transform: rotateZ(-5deg) scale3d(1,1,1);
-    background-image: linear-gradient(140deg,#f7c28f,#176c75/*,#c1c9de*/);
+    background-image: linear-gradient(125deg,#e69240,#38415c,#02323b);
+}
+
+#asset4
+{
+    position: absolute;
+    z-index: 3;
+    background: transparent;
+    height: 200px;
+    width: 200px;
+    top: -20%;
+    left: -14%;
+    bottom: auto;
+    right: auto;
+    opacity: 1;
 }
 
 
