@@ -27,8 +27,10 @@ movementField2.addEventListener("mousemove",function(e)
     // console.log(x,y);
 
     let asset4 = document.getElementById("asset4");
-    // // let asset5 = document.getElementById("asset5");
+    let asset5 = document.getElementById("asset5");
 
     asset4.style.transform = `translate(${x*0.02}px,${y*0.02}px)`; 
+    asset5.style.transform = `translate(-${x*0.02}px,-${y*0.02}px)`; 
     asset4.style.transformStyle = "preserve-3d";
+    asset5.style.transformStyle = "preserve-3d";
 });
