@@ -319,3 +319,75 @@ nav
     padding-top: 80px;
 }
 
+.project-card
+{
+    height: 500px;
+    width: 300px;
+    background-color: tomato;
+    padding: 4px;
+    border-radius: 20px;
+}
+
+#card1
+{    
+    background-image: linear-gradient(60deg,#9278dc,#8355e9);
+}
+
+#card2
+{
+    background-image: linear-gradient(60deg,#a35eb5,#fcad6b);
+}
+
+#card3
+{
+    background-image: linear-gradient(60deg,#871dfc,#e448f1);
+}
+
+.card-container
+{
+    background-color: tomato;
+    height: 492px;
+    border-radius: 15px;
+}
+
+#card-container1
+{
+    background-color: #48327f;
+}
+
+#card-container2
+{
+    background-color: #903581;
+}
+
+#card-container3
+{
+    background-color: #592e6a;
+}
+
+.project-img-bg-div
+{
+    height: 240px;
+    width: 250px;
+    background-color: tomato;
+    margin: 18px auto;
+    border-radius: 12px;
+    padding: 3px;
+}
+
+#project-img-bg-div1
+{
+    background-image: linear-gradient(60deg,#95b3f3,#6768b3,#93baf9);
+}
+
+#project-img-bg-div2
+{
+    background-image: linear-gradient(60deg,#b13e9e,#b0566a,#fcc398);
+}
+
+#project-img-bg-div3
+{
+    background-image: linear-gradient(60deg,#c89bee,#9f6acd,#fb9399);
+}
+
+
