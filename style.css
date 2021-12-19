@@ -331,6 +331,13 @@ nav
     overflow: visible;
 }
 
+.project-card:hover
+{
+    transform: scale3d(1.05, 1.05, 1.01);
+    transition-duration: 800ms;
+}
+
+
 #card1
 {    
     background-image: linear-gradient(60deg,#9278dc,#8355e9);
@@ -443,9 +450,3 @@ nav
     font-size: 1rem;
     font-weight: 600;
 }
-
-
-
-
-
-
