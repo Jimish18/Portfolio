@@ -321,11 +321,11 @@ nav
 
 .project-card
 {
-    height: 500px;
-    width: 300px;
-    background-color: tomato;
+    height: 580px;
+    width: 350px;
     padding: 4px;
     border-radius: 20px;
+    margin: auto;
 }
 
 #card1
@@ -345,8 +345,7 @@ nav
 
 .card-container
 {
-    background-color: tomato;
-    height: 492px;
+    height: 572px;
     border-radius: 15px;
 }
 
@@ -368,8 +367,7 @@ nav
 .project-img-bg-div
 {
     height: 240px;
-    width: 250px;
-    background-color: tomato;
+    width: 315px;
     margin: 18px auto;
     border-radius: 12px;
     padding: 3px;
@@ -378,16 +376,73 @@ nav
 #project-img-bg-div1
 {
     background-image: linear-gradient(60deg,#95b3f3,#6768b3,#93baf9);
+    box-shadow: 3px -3px 7px 0px rgb(147 186 249 / 80%);
 }
 
 #project-img-bg-div2
 {
     background-image: linear-gradient(60deg,#b13e9e,#b0566a,#fcc398);
+    box-shadow: 3px -3px 7px 0px rgb(252 195 152 / 80%);
 }
 
 #project-img-bg-div3
 {
     background-image: linear-gradient(60deg,#c89bee,#9f6acd,#fb9399);
+    box-shadow: 3px -3px 7px 0px rgb(251 147 153 / 80%);
 }
+
+.project-img
+{
+    height: 234px;
+    width: 309px;
+    border-radius: 9px;
+}
+
+.project-title
+{
+    background: transparent;
+}
+
+.project-title h2
+{
+    background: transparent;
+    text-align: center;
+}
+
+.project-discription
+{
+    background: transparent;
+    text-align: justify;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0;
+    font-size: 1.05rem;
+}
+
+.github-link
+{
+    background-color: transparent;
+    margin: 0.5rem 1rem;
+    position: absolute;
+    bottom: 0;
+}
+
+.github-link h4
+{
+    background-color: transparent;
+    margin-bottom: 0;
+}
+
+.github-link a
+{
+    background-color: transparent;
+    color: #0F0823;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+
+
 
 
