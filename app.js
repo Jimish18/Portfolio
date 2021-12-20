@@ -34,3 +34,26 @@ movementField2.addEventListener("mousemove",function(e)
     asset4.style.transformStyle = "preserve-3d";
     asset5.style.transformStyle = "preserve-3d";
 });
+
+let card_transition = document.querySelectorAll(".project-card");
+console.log(card_transition);
+
+card_transition.forEach((element) => {
+
+    element.style.transitionDuration = "800ms";
+
+    element.addEventListener("mouseover", function()
+    {
+        element.style.transform = "scale3d(1.05, 1.05, 1.01)";
+        
+    })
+
+    element.addEventListener("mouseout", function()
+    {
+        element.style.transform = "scale3d(1, 1, 1)";
+    })
+});
+
+
+
+
