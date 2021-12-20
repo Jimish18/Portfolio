@@ -291,7 +291,7 @@ nav
     overflow: visible;
 }
 
-#projects_container h1
+.container-title
 {
     text-align: center;
     font-size: 3rem;
@@ -299,7 +299,7 @@ nav
     margin-bottom: 0;
 }
 
-#underline
+.underline
 {
     width: 650px;
     height: 5px;
@@ -449,4 +449,55 @@ nav
     text-decoration: none;
     font-size: 1rem;
     font-weight: 600;
+}
+
+#skills
+{
+    padding-top: 240px;
+    padding-bottom: 240px;
+    position: relative;    
+}
+
+#skills-container
+{
+    max-width: 1100px;
+    margin: auto;
+}
+
+#skills-container-grid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 2rem;
+    padding-top: 80px;
+}
+
+.skill-card
+{
+    height: 170px;
+    width: 400px;
+    margin: auto;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 50%), linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 50%), linear-gradient(360deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 24.87%), linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 69.22%);
+    border-radius: 15px;
+    /* backdrop-filter: blur(10px); */
+}
+
+.skill-logo
+{
+    background: transparent;
+    margin: auto;
+    display: block;
+}
+
+#ciconset
+{
+    background: transparent;
+    margin: auto;
+    width: fit-content;
+}
+
+#ciconset img
+{
+    background: transparent;
 }
