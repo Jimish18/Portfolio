@@ -281,6 +281,7 @@ nav
     position: relative;
     padding-top: 100px;
     padding-bottom: 100px;
+    overflow: visible;
 }
 
 #projects_container
@@ -289,6 +290,8 @@ nav
     max-width: 1100px;
     margin: auto;
     overflow: visible;
+    z-index: 3;
+    background: transparent;
 }
 
 .container-title
@@ -320,6 +323,7 @@ nav
     grid-column-gap: 20px;
     padding-top: 80px;
     overflow: visible;
+    background: transparent;
 }
 
 .project-card
@@ -330,6 +334,7 @@ nav
     border-radius: 20px;
     margin: auto;
     overflow: visible;
+    box-shadow: -10px 19px 16px 2px rgb(0 0 0 / 50%);
 }
 
 /* .project-card:hover
@@ -452,10 +457,31 @@ nav
     font-weight: 600;
 }
 
+#asset7
+{
+    position: absolute;
+    max-width: 750px;
+    z-index: 2;
+    top: -2%;
+    left: -5%;
+    background: transparent;
+}
+
+#asset8
+{
+    position: absolute;
+    max-width: 750px;
+    background: transparent;
+    bottom: -20%;
+    right: -5%;
+    z-index: 2;
+}
+
+
 #skills
 {
     padding-top: 150px;
-    padding-bottom: 240px;
+    padding-bottom: 150px;
     position: relative;    
 }
 
@@ -466,6 +492,7 @@ nav
     position: relative;
     z-index: 3;
     background: transparent;
+    overflow: visible;
 }
 
 #skills-container-grid
@@ -476,6 +503,7 @@ nav
     grid-row-gap: 2rem;
     padding-top: 80px;
     background: transparent;
+    overflow: visible;
 }
 
 .skill-card
@@ -486,6 +514,7 @@ nav
     background: linear-gradient(270deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 50%), linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 50%), linear-gradient(360deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 24.87%), linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 69.22%);
     border-radius: 15px;
     backdrop-filter: blur(10px);
+    box-shadow: 8px 15px 20px 2px rgb(0 0 0 / 50%);
 }
 
 .skill-logo
@@ -542,7 +571,7 @@ nav
     font-weight: 600;
 }
 
-#asset7
+#asset9
 {
     max-width: 1000px;
     position: absolute;
