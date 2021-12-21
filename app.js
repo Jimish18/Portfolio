@@ -54,8 +54,96 @@ card_transition.forEach((element) => {
     })
 });
 
+// let i = 0; 
 
+function move()
+{
+    let html = document.getElementById("html");
+    let css = document.getElementById("css");
+    let js = document.getElementById("js");
+    let figma = document.getElementById("figma");
+    let language = document.getElementById("language");
+    let dsa = document.getElementById("dsa");
 
+    let widthH = 0;let widthC = 0;let widthJ = 0;let widthF = 0;let widthL = 0;let widthD = 0;
 
+    let idHTML = setInterval(()=>
+    {       
+        widthH++;
+        html.style.width = widthH + "%";
+        html.innerHTML = widthH + "%";
+
+        if(widthH >= 90)
+        {
+            clearInterval(idHTML);
+        }        
+    },20)
+
+    let idCSS = setInterval(()=>
+    {       
+        widthC++;
+        css.style.width = widthC + "%";
+        css.innerHTML = widthC + "%";
+
+        if(widthC >= 75)
+        {
+            clearInterval(idCSS);
+        }        
+    },20)
+
+    let idJS = setInterval(()=>
+    {       
+        widthJ++;
+        js.style.width = widthJ + "%";
+        js.innerHTML = widthJ + "%";
+
+        if(widthJ >= 80)
+        {
+            clearInterval(idJS);
+        }        
+    },20)
+
+    let idFigma = setInterval(()=>
+    {       
+        widthF++;
+        figma.style.width = widthF + "%";
+        figma.innerHTML = widthF + "%";
+
+        if(widthF >= 60)
+        {
+            clearInterval(idFigma);
+        }        
+    },20)
+
+    let idLanguage = setInterval(()=>
+    {       
+        widthL++;
+        language.style.width = widthL + "%";
+        language.innerHTML = widthL + "%";
+
+        if(widthL >= 75)
+        {
+            clearInterval(idLanguage);
+        }        
+    },20)
+
+    let idDSA = setInterval(()=>
+    {       
+        widthD++;
+        dsa.style.width = widthD + "%";
+        dsa.innerHTML = widthD + "%";
+
+        if(widthD >= 70)
+        {
+            clearInterval(idDSA);
+        }        
+    },20)
+
+    
+}
+move();
+setInterval(()=>
+{    move();
+},7000)
 
 
