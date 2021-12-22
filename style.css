@@ -720,7 +720,54 @@ input
     grid-row-end: span 1;
     grid-column-start: span 2;
     grid-column-end: span 2;
-    width: 200px;
+    width: 227px;
     
+}
+
+#solcialmedia-handles
+{
+    margin: 20px auto;
+    width: fit-content;
+}
+
+#solcialmedia-handles ul
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+#solcialmedia-handles ul li
+{
+    margin: 5px 18px;
+    overflow: visible;
+}
+
+#solcialmedia-handles ul li a i
+{
+    font-size: 30px;
+    overflow: visible;
+}
+
+#handle-underline
+{
+    margin: auto;
+    width: 50%;
+    height: 2px;
+    border-radius: 15px;    
+    background-color:rgba(255, 255, 255, 0.24);
+}
+
+#copyright
+{
+    margin: 20px auto;
+    text-align: center;
+    font-size: 1.15rem;
+}
+
+#copyright p
+{
+    margin: 0;    
 }
 
