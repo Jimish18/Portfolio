@@ -23,11 +23,20 @@
     overflow: visible;
 }
 
+.ps-ab
+{
+    position: absolute;
+}
+
+.ps-rel
+{
+    position: relative;
+}
+
 nav
 {
     display: flex;
     flex-direction: row;
-    position: absolute;
     top: 20px;  
     width: 100vw; 
     z-index: 100; 
@@ -64,7 +73,6 @@ nav
 {
     font-size: 30px;
     margin-left: 35px;
-    position: absolute;
 }
 
 #name_assets
@@ -75,7 +83,6 @@ nav
 
 #name_discription
 {
-    position: relative;
     max-width: 1240px;
     margin: auto;
     z-index: 2;
@@ -118,10 +125,8 @@ nav
 
 #asset1
 {
-    position: absolute;
     right: -18%;
     top: -92%;
-    opacity: 1;
     z-index: 0;
 }
 
@@ -129,29 +134,24 @@ nav
 {
     height: 230px;
     width: 230px;
-    position: absolute;
     top: 10%;
     right: 10%;
     z-index: 0;
-    opacity: 1;
 }
 
 #asset3
 {
     height: 200px;
     width: 200px;
-    position: absolute;
     top: 64%;
     right: 22%;
     z-index: 0;
-    opacity: 1;
 }
 
 #image_intro
 {
     padding-top: 150px;
     padding-bottom: 150px;
-    position: relative;
     z-index: 5;
 }
 
@@ -159,7 +159,6 @@ nav
 {
     max-width: 1150px;
     margin: auto;
-    position: relative;
 }
 
 #image_intro_container_grid
@@ -170,7 +169,6 @@ nav
 
 #image_section
 {
-    position: relative;
     justify-self: center;
     height: 490px;
     display: grid;
@@ -182,8 +180,7 @@ nav
     border-radius: 52px;
     transform: rotateZ(5deg) scale3d(1,1,1);
     max-width: 90%;
-    margin: 0px auto;  
-    position: relative;  
+    margin: 0px auto; 
     z-index: 2;
     box-shadow: 0px 20px 55px 0 rgb(0 0 0 / 90%);
 }
@@ -191,7 +188,6 @@ nav
 #img-background-div
 {
     height: 94%;
-    position: absolute;
     width: 91%;
     z-index: 0;
     background-color: brown;
@@ -203,7 +199,6 @@ nav
 
 #asset4
 {
-    position: absolute;
     z-index: 3;
     height: 200px;
     width: 200px;
@@ -230,7 +225,6 @@ nav
 {
     height: 180px;
     width: 180px;
-    position: absolute;
     right: 15%;
     bottom: 12%;
     left: auto;
@@ -241,7 +235,6 @@ nav
 #asset6
 {
     max-width: 600px;
-    position: absolute;
     top: 9%;
     left: -2%;
     z-index: -1;
@@ -249,14 +242,12 @@ nav
 
 #projects
 {
-    position: relative;
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
 #projects_container
 {
-    position: relative;
     max-width: 1100px;
     margin: auto;
     z-index: 3;
@@ -384,7 +375,6 @@ nav
 .github-link
 {
     margin: 0.5rem 1rem;
-    position: absolute;
     bottom: 0;
 }
 
@@ -403,7 +393,6 @@ nav
 
 #asset7
 {
-    position: absolute;
     max-width: 750px;
     z-index: 2;
     top: -2%;
@@ -412,7 +401,6 @@ nav
 
 #asset8
 {
-    position: absolute;
     max-width: 750px;
     bottom: -20%;
     right: -5%;
@@ -424,14 +412,12 @@ nav
 {
     padding-top: 150px;
     padding-bottom: 150px;
-    position: relative;    
 }
 
 #skills-container
 {
     max-width: 1100px;
     margin: auto;
-    position: relative;
     z-index: 3;
 }
 
@@ -507,7 +493,6 @@ nav
 #asset9
 {
     max-width: 1000px;
-    position: absolute;
     top: 10%;
     right: 10%;
 }
@@ -516,14 +501,12 @@ nav
 {
     padding-top: 100px;
     padding-bottom: 100px;
-    position: relative;
 }
 
 #contact-container
 {
     max-width: 1100px;
     margin: auto;
-    position: relative;
     z-index: 3;
 }
 
@@ -702,7 +685,6 @@ input
 #asset10
 {
     max-width: 850px;
-    position: absolute;
     top: -20%;
     left: -12%;
     z-index: 0;
@@ -711,7 +693,6 @@ input
 #asset11
 {
     max-width: 850px;
-    position: absolute;
     z-index: 0;
     bottom: -21%;
     right: -15%;
@@ -720,7 +701,6 @@ input
 #asset12
 {
     max-width: 250px;
-    position: absolute;
     bottom: 5%;
     z-index: 4;
     left: 10%;
