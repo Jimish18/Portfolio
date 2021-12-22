@@ -13,6 +13,11 @@
     overflow-x: hidden;
 }
 
+.transparent-bg
+{
+    background: transparent;
+}
+
 nav
 {
     display: flex;
@@ -21,14 +26,12 @@ nav
     top: 20px;  
     width: 100vw; 
     z-index: 100; 
-    background-color: transparent;
 }
 
 #nav-menu
 {
     display: flex;
     margin: 8px auto;
-    background-color: transparent;
 }
 
 #nav-menu ul
@@ -37,14 +40,12 @@ nav
     flex-direction: row;  
     margin-bottom: 0;  
     padding-left: 0;
-    background-color: transparent;
 }
 
 #nav-menu ul li
 {
     margin-left: 25px;
     margin-right: 25px;
-    background-color: transparent;
 }
 
 #nav-menu ul li a
@@ -52,7 +53,6 @@ nav
     text-decoration: none;
     color: white;
     font-size: 22px;
-    background-color: transparent;
 }
 
 #logo
@@ -60,14 +60,7 @@ nav
     font-size: 30px;
     margin-left: 35px;
     position: absolute;
-    background-color: transparent;
 }
-
-/* main
-{
-    position: relative;
-    z-index: -1;
-} */
 
 #name_assets
 {
@@ -81,7 +74,6 @@ nav
     max-width: 1240px;
     margin: auto;
     z-index: 2;
-    background-color: transparent;
 }
 
 #grid
@@ -89,12 +81,6 @@ nav
     display: grid;
     grid-template-columns: 1fr 0.6fr;
     grid-column-gap: 15px;
-    background-color: transparent;
-}
-
-#name_discription_column
-{
-    background-color: transparent;
 }
 
 #name_discription_column h1
@@ -102,13 +88,11 @@ nav
     font-size: 62px;
     font-family: 'Special Elite', 'cursive';
     margin-bottom: 0;
-    background-color: transparent;
 }
 
 #name_discription_column p
 {
     font-size: 20px;
-    background-color: transparent;
 }
 
 .main-button
@@ -145,7 +129,6 @@ nav
     right: 10%;
     z-index: 0;
     opacity: 1;
-    background-color: transparent;
 }
 
 #asset3
@@ -157,7 +140,6 @@ nav
     right: 22%;
     z-index: 0;
     opacity: 1;
-    background-color: transparent;
 }
 
 #image_intro
@@ -174,7 +156,6 @@ nav
     margin: auto;
     position: relative;
     overflow: visible;
-    background: transparent;
 }
 
 #image_intro_container_grid
@@ -182,7 +163,6 @@ nav
     display: grid;
     grid-template-columns: 0.8fr 1fr;
     overflow: visible;
-    background: transparent;
 }
 
 #image_section
@@ -193,7 +173,6 @@ nav
     display: grid;
     align-items: center;
     overflow: visible;
-    background: transparent;
 }
 
 #profile_image
@@ -224,7 +203,6 @@ nav
 {
     position: absolute;
     z-index: 3;
-    background: transparent;
     height: 200px;
     width: 200px;
     top: -20%;
@@ -234,23 +212,16 @@ nav
     opacity: 1;
 }
 
-#intro
-{
-    background: transparent;
-}
-
 #intro h1
 {
     margin-top: 1rem;
     margin-bottom: 1rem;
     font-size: 3.5rem;
-    background: transparent;
 }
 
 #intro p
 {
    font-size: 1.6rem;
-   background: transparent;
 }
 
 #asset5
@@ -262,7 +233,6 @@ nav
     bottom: 12%;
     left: auto;
     top: auto;
-    background: transparent;
     z-index: 2;
 }
 
@@ -273,7 +243,6 @@ nav
     top: 9%;
     left: -2%;
     z-index: -1;
-    background: transparent;
 }
 
 #projects
@@ -291,7 +260,6 @@ nav
     margin: auto;
     overflow: visible;
     z-index: 3;
-    background: transparent;
 }
 
 .container-title
@@ -300,7 +268,6 @@ nav
     font-size: 3rem;
     letter-spacing: 0.06rem;
     margin-bottom: 0;
-    background: transparent;
 }
 
 .underline
@@ -309,9 +276,6 @@ nav
     height: 5px;
     margin: auto;
     background-color: #6557d9;
-    /* alternative color for underline
-    #4e3beb
-    #6a5aed */
     margin-top: 8px;
     border-radius: 20px;
 }
@@ -323,7 +287,6 @@ nav
     grid-column-gap: 20px;
     padding-top: 80px;
     overflow: visible;
-    background: transparent;
 }
 
 .project-card
@@ -336,13 +299,6 @@ nav
     overflow: visible;
     box-shadow: -10px 19px 16px 2px rgb(0 0 0 / 50%);
 }
-
-/* .project-card:hover
-{
-    transform: scale3d(1.05, 1.05, 1.01);
-    transition-duration: 800ms;
-} */
-
 
 #card1
 {    
@@ -414,20 +370,13 @@ nav
     border-radius: 9px;
 }
 
-.project-title
-{
-    background: transparent;
-}
-
 .project-title h2
 {
-    background: transparent;
     text-align: center;
 }
 
 .project-discription
 {
-    background: transparent;
     text-align: justify;
     padding: 0.5rem 1rem;
     margin-bottom: 0;
@@ -436,7 +385,6 @@ nav
 
 .github-link
 {
-    background-color: transparent;
     margin: 0.5rem 1rem;
     position: absolute;
     bottom: 0;
@@ -444,13 +392,11 @@ nav
 
 .github-link h4
 {
-    background-color: transparent;
     margin-bottom: 0;
 }
 
 .github-link a
 {
-    background-color: transparent;
     color: #0F0823;
     text-decoration: none;
     font-size: 1rem;
@@ -464,14 +410,12 @@ nav
     z-index: 2;
     top: -2%;
     left: -5%;
-    background: transparent;
 }
 
 #asset8
 {
     position: absolute;
     max-width: 750px;
-    background: transparent;
     bottom: -20%;
     right: -5%;
     z-index: 2;
@@ -491,7 +435,6 @@ nav
     margin: auto;
     position: relative;
     z-index: 3;
-    background: transparent;
     overflow: visible;
 }
 
@@ -502,7 +445,6 @@ nav
     grid-template-rows: 1fr 1fr 1fr;
     grid-row-gap: 2rem;
     padding-top: 80px;
-    background: transparent;
     overflow: visible;
 }
 
@@ -519,7 +461,6 @@ nav
 
 .skill-logo
 {
-    background: transparent;
     margin: auto;
     display: block;
     margin-top: 20px;
@@ -527,20 +468,17 @@ nav
 
 #ciconset
 {
-    background: transparent;
     margin: auto;
     width: fit-content;
 }
 
 #ciconset img
 {
-    background: transparent;
     margin-top: 20px;
 }
 
 #dsaCard h2
 {
-    background: transparent;
     font-size: 1.35rem;
     text-align: center;
     margin-top: 10px;
@@ -554,7 +492,6 @@ nav
     margin: auto;
     border-radius: 15px;
     border: 3px solid wheat;
-    background: transparent;
     margin-top: 30px;
 }
 
@@ -577,7 +514,6 @@ nav
     position: absolute;
     top: 10%;
     right: 10%;
-    background: transparent;
 }
 
 #contact
@@ -594,7 +530,6 @@ nav
     margin: auto;
     overflow: visible;
     position: relative;
-    background: transparent;
     z-index: 3;
 }
 
@@ -604,12 +539,6 @@ nav
     grid-template-columns: 0.8fr 1fr;
     grid-column-gap: 30px;
     overflow: visible;
-    background: transparent;
-}
-
-#contact-greet
-{
-    background: transparent;
 }
 
 #contact-greet h1
@@ -617,7 +546,6 @@ nav
     font-size: 3.5rem;
     font-weight: 600;
     text-align: justify;
-    background: transparent;
 }
 
 #contact-greet p
@@ -625,31 +553,18 @@ nav
     margin-top: 1.2rem;
     font-size: 1.1rem;
     text-align: justify;
-    background: transparent;
-}
-
-#contact-greet p i
-{
-    background: transparent;
 }
 
 #mailbox
 {
     margin-top: 100px;
     width: fit-content;
-    background: transparent;
 }
 
 #mailbox a
 {
     text-decoration: none;  
-    font-size: 1.2rem;  
-    background: transparent;
-}
-
-#mail
-{
-    background: transparent;
+    font-size: 1.2rem; 
 }
 
 #mail-underline
@@ -806,7 +721,6 @@ footer
     position: absolute;
     top: -20%;
     left: -12%;
-    background: transparent;
     z-index: 0;
 }
 
@@ -814,7 +728,6 @@ footer
 {
     max-width: 850px;
     position: absolute;
-    background: transparent;
     z-index: 0;
     bottom: -21%;
     right: -15%;
@@ -825,7 +738,6 @@ footer
     max-width: 250px;
     position: absolute;
     bottom: 5%;
-    background: transparent;
     z-index: 4;
     left: 10%;
 }
