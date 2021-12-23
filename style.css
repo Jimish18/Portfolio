@@ -715,3 +715,46 @@ input
     left: 10%;
 }
 
+/* -----------------------> Media queries <-----------------------*/
+
+@media only screen and (max-width : 1280px)
+{
+    #name_discription
+    {
+        max-width: 1070px;
+    }
+}
+
+@media only screen and (max-width : 1150px)
+{
+    #image_intro_container
+    {
+        max-width: 900px;
+    }
+    #image_intro_container_grid
+    {
+        grid-column-gap: 20px;
+    }
+    #projects_container_grid
+    {
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 20px;
+    }
+    #card3 
+    {
+        grid-column-start: span 2;
+        grid-column-end: span 2;
+    }
+}
+
+@media only screen and (max-width : 1080px)
+{
+    #name_discription
+    {
+        max-width: 800px;
+    }
+    #name_discription_column h1
+    {
+        font-size: 46px;
+    }
+}
