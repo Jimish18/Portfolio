@@ -159,3 +159,20 @@ movementField3.addEventListener("mousemove",function(e)
     asset12.style.transform = `translate(${x*0.02}px,${y*0.02}px)`; 
     asset12.style.transformStyle = "preserve-3d";
 });
+
+let anchor = document.querySelectorAll("a");
+console.log(anchor);
+
+anchor.forEach((elem) => 
+{
+    elem.style.transitionDuration = `600ms`;    
+    elem.addEventListener("mouseover",()=>
+    {
+        elem.style.color = `hsla(0, 0%, 100%, 0.6)`;
+    })
+
+    elem.addEventListener("mouseout",()=>
+    {
+        elem.style.color = `white`;
+    })
+})
