@@ -868,4 +868,31 @@ input
     {
         width: 320px;
     }
+    #asset12
+    {
+        z-index: 1;
+        bottom: -1%;
+        left: 4%;
+    }
+    #contact-container
+    {
+        max-width: 800px;
+    }
+    #contact-container-grid
+    {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 1fr;
+    }
+    #contact-greet h1,#contact-greet p
+    {
+        text-align: center;
+    }
+    #mailbox
+    {
+        margin: auto;
+    }
+    #asset3
+    {
+        top:55%;
+    }
 }
