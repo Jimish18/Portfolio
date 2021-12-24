@@ -737,7 +737,7 @@ input
 #mobile-menu
 {             
     width: 100vw;
-    top: 400%; 
+    top: 65px; 
 }
 
 #mobile-menu ul
@@ -815,5 +815,17 @@ input
     #contact-container 
     {
         margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width:930px)
+{
+    #mobile-nav
+    {
+        display: flex;
+    }
+    #nav-menu
+    {
+        display: none;
     }
 }
