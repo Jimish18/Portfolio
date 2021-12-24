@@ -820,6 +820,10 @@ input
 
 @media only screen and (max-width:930px)
 {
+    main
+    {
+        overflow: hidden;
+    }
     #mobile-nav
     {
         display: flex;
