@@ -828,4 +828,44 @@ input
     {
         display: none;
     }
+    #profile_image
+    {
+        max-width: 70%;
+    }
+    #image_intro_container
+    {
+        max-width: 750px;
+    }
+    #img-background-div
+    {
+        height: 61%;
+        width: 74%;
+        left: 13.5%;
+    }
+    #intro h1
+    {
+        font-size: 2.2rem;
+    }
+    #intro p
+    {
+        font-size: 1.2rem;
+        line-height: 2.1rem;
+    }
+    #image_section
+    {
+        align-items:flex-start;
+        height: 380px;
+    }
+    #asset4
+    {
+        top: -34%;
+    }
+    .skill-card
+    {
+        width: 350px;
+    }
+    .progress-bg
+    {
+        width: 320px;
+    }
 }
