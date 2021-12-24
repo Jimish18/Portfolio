@@ -900,3 +900,75 @@ input
         top:55%;
     }
 }
+
+@media only screen and (max-width : 800px)
+{
+    #projects_container_grid
+    {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    #card3
+    {
+        grid-column-start: span 1;
+        grid-column-end: span 1;
+    }
+    #skills-container-grid
+    {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    #image_intro_container_grid
+    {
+        grid-template-columns: 1fr;
+    }
+    #image_intro_container
+    {
+        max-width: 500px;
+    }
+    #img-background-div
+    {
+        height: 95%;
+        width: 74%;
+        left: 12.5%;
+    }
+    #asset5
+    {
+        z-index: -2;
+        right: 10%;
+        bottom: 5%;
+    }
+    #name_assets
+    {
+        padding-top: 170px;
+    }
+    #name_discription
+    {
+        max-width: 500px;
+    }
+    #grid
+    {
+        grid-template-columns: 1fr;
+    }
+    #asset2
+    {
+        height: 120px;
+        width: 120px;
+        right: auto;
+        left: 7%;
+        top: 10%;
+    }
+    #asset3
+    {
+        height: 140px;
+        width: 140px;
+        top: 58%;
+        right: 10%;
+    }
+    .underline
+    {
+        width: 430px;
+    }
+
+
+}
