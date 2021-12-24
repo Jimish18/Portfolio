@@ -176,3 +176,23 @@ anchor.forEach((elem) =>
         elem.style.color = `white`;
     })
 })
+
+let mobile_nav = document.getElementById("mobile-nav");
+let mobile_menu = document.getElementById("mobile-menu");
+
+mobile_nav.addEventListener("click",()=>
+{
+    console.log("jimish");
+    console.log(mobile_menu.classList);
+
+    if(mobile_menu.classList.contains("mobile-menu-hide") == true)
+    {
+        mobile_menu.classList.remove("mobile-menu-hide");
+        mobile_menu.classList.add("mobile-menu-show");
+    }
+    // if(mobile_menu.classList.contains("mobile-menu-show") === false)
+    else{
+        mobile_menu.classList.add("mobile-menu-hide");
+        mobile_menu.classList.remove("mobile-menu-show");
+    }
+})

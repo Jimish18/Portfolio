@@ -715,6 +715,61 @@ input
     left: 10%;
 }
 
+#mobile-nav
+{
+    height: 55px;
+    width: 55px;
+    top: 0%;
+    right: 5%;
+    border-radius: 30px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(311deg, #5039df, #b124e1);
+    box-shadow: 7px 3px 8px 0px rgb(0 0 0 / 50%);
+}
+
+#mobile-nav img
+{
+    filter: invert(100%);
+}
+
+#mobile-menu
+{             
+    width: 100vw;
+    top: 400%; 
+}
+
+#mobile-menu ul
+{
+    margin-bottom: 0;
+}
+
+#mobile-menu ul li
+{
+    margin: 5px 2px;
+    font-size: 1.3rem;
+}
+
+#mobile-menu ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.mobile-menu-show
+{
+    display: block;
+}
+
+.mobile-menu-hide
+{ 
+    display: none;
+}
+
+
+
+
 /* -----------------------> Media queries <-----------------------*/
 
 @media only screen and (max-width : 1280px)
