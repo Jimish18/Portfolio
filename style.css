@@ -657,11 +657,18 @@ input
 #solcialmedia-handles ul li
 {
     margin: 5px 18px;
+    background: transparent;
+}
+
+#solcialmedia-handles ul li a
+{
+    background: transparent;
 }
 
 #solcialmedia-handles ul li a i
 {
     font-size: 30px;
+    background: transparent;
 }
 
 #handle-underline
