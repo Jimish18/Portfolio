@@ -67,18 +67,12 @@ nav
 {
     text-decoration: none;
     color: white;
-    font-size: 22px;
+    font-size: 30px;
 }
-
-/* #nav-menu ul li a:hover
-{
-    transition: 1s;
-    color: blue;
-} */
 
 #logo
 {
-    font-size: 30px;
+    font-size: 38px;
     margin-left: 35px;
 }
 
@@ -150,7 +144,7 @@ nav
 {
     height: 200px;
     width: 200px;
-    top: 64%;
+    top: 52%;
     right: 22%;
     z-index: 0;
 }
@@ -243,8 +237,8 @@ nav
 #asset6
 {
     max-width: 600px;
-    top: 9%;
-    left: -2%;
+    top: 0%;
+    left: 8%;
     z-index: -1;
 }
 
