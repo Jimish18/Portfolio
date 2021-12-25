@@ -969,6 +969,46 @@ input
     {
         width: 430px;
     }
+    form
+    {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto auto auto;
+        grid-row-gap: 20px;
+        grid-column-gap: 0; 
+    }
+    #textareadiv
+    {
+        grid-column-start: span 1;
+        grid-column-end: span 1;
+    }
+    .grid-set
+    {
+        grid-column-start: span 1;
+        grid-column-end: span 1;
+        width: 100%;
+    }
+    #helptextarea
+    {
+        min-height: auto;
+        border-radius: 45px;
+        padding: 5px 25px;
+    }
+    input
+    {
+        height: 65px;
+    }
+    form button
+    {
+        width: 100%;
+    }
+    #asset12
+    {
+        max-width: 150px;
+    }
+    #solcialmedia-handles ul li a i 
+    {
+        font-size: 25px;
+    }
 
 
 }
