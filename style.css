@@ -881,7 +881,7 @@ input
     #contact-container
     {
         max-width: 800px;
-        margin-left: 0;
+        margin: auto;
     }
     #contact-container-grid
     {
@@ -1144,7 +1144,6 @@ input
     #contact-container 
     {
         max-width: 400px;
-        margin: auto;
     }
     #contact-greet p 
     {
