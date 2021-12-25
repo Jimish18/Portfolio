@@ -881,6 +881,7 @@ input
     #contact-container
     {
         max-width: 800px;
+        margin-left: 0;
     }
     #contact-container-grid
     {
@@ -1011,4 +1012,150 @@ input
     }
 
 
+}
+
+@media only screen and (max-width : 500px)
+{
+    #logo
+    {
+        margin-left: 15px;
+    }
+    #name_discription,#image_intro_container
+    {
+        max-width: 320px;
+    }
+    #name_discription_column h1
+    {
+        font-size: 30px;
+    }
+    #name_discription_column p
+    {
+        font-size: 15px;
+    }
+    .main-button
+    {
+        font-size: 15px;
+    }
+    #asset2
+    {
+        height: 90px;
+        width: 90px;
+        left: 5%;
+        top: 12%;
+    }
+    #asset3
+    {
+        height: 100px;
+        width: 100px;
+        top: 45%;
+        right: 3%;
+    }
+    #image_intro
+    {
+        padding-top: 100px;
+    }
+    #asset4
+    {
+        height: 100px; width: 100px;
+        top: -18%; left: 2%;
+    }
+    #img-background-div
+    {
+        height: 77%;
+    }
+    #intro h1
+    {
+        font-size: 2rem;
+    }
+    #intro p
+    {
+        font-size: 1rem;
+        line-height: 1.8rem;
+    }
+    #asset5 
+    {
+        height: 100px; width: 100px;
+        right: 8%;
+        bottom: 9%;
+    }
+    #projects_container
+    {
+        max-width: 400px;
+    }
+    .container-title
+    {
+        font-size: 2rem;
+    }
+    .underline
+    {
+        width: 280px;
+    }
+    #projects_container_grid , #skills-container-grid
+    {
+        padding-top: 30px;
+    }
+    .project-card
+    {
+        height: 540px;
+        width: 310px;
+    }
+    .card-container
+    {
+        height: 532px;
+    }
+    .project-img-bg-div
+    {
+        width: 275px;
+    }
+    .project-img
+    {
+        width: 269px;
+    }
+    .github-link a
+    {
+        font-size: 0.9rem;
+    }
+    .project-discription
+    {
+        font-size: 1rem;
+    }
+    #projects
+    {
+        padding-top: 50px; padding-bottom: 50px;
+    }
+    .skill-card
+    {
+        width: 310px;
+    }
+    .progress-bg
+    {
+        width: 285px;
+    }
+    #skills 
+    {
+        padding-top: 125px;
+        padding-bottom: 100px;
+    }
+    #contact 
+    {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    #contact-container 
+    {
+        max-width: 400px;
+        margin: auto;
+    }
+    #contact-greet p 
+    {
+        font-size: 1rem;
+    }
+    #contact-greet h1
+    {
+        font-size: 2.1rem;
+    }
+    #formbox-bg
+    {
+        width: 90%;
+    }
 }
