@@ -817,14 +817,6 @@ input
     {
         margin-left: 20px;
     }
-}
-
-@media only screen and (max-width:930px)
-{
-    main
-    {
-        overflow: hidden;
-    }
     #mobile-nav
     {
         display: flex;
@@ -833,6 +825,14 @@ input
     {
         display: none;
     }
+}
+
+@media only screen and (max-width:930px)
+{
+    main
+    {
+        overflow: hidden;
+    }    
     #profile_image
     {
         max-width: 70%;
