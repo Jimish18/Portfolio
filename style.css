@@ -669,7 +669,16 @@ input
 {
     font-size: 30px;
     background: transparent;
+    transition: 500ms;
 }
+
+#solcialmedia-handles ul li a i:hover
+{
+    transform: translateY(-5px);
+    color: #92AFD7;
+}
+
+/* #92AFD7 - wild blue yonder* */
 
 #handle-underline
 {
