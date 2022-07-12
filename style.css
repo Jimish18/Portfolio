@@ -331,7 +331,7 @@ nav
 {
     height: 240px;
     width: 315px;
-    margin: 18px auto;
+    margin: 18px auto 10px auto;
     border-radius: 12px;
     padding: 3px;
 }
@@ -364,6 +364,7 @@ nav
 .project-title h2
 {
     text-align: center;
+    margin-bottom: 0;
 }
 
 .project-discription
@@ -372,6 +373,7 @@ nav
     padding: 0.5rem 1rem;
     margin-bottom: 0;
     font-size: 1.05rem;
+    line-height: 1.2;
 }
 
 .github-link
@@ -581,7 +583,7 @@ form
     grid-template-rows: auto auto auto auto;
     grid-row-gap: 40px;
     grid-column-gap: 20px;
-    padding: 30px 35px;
+    padding: 22px 35px;
 }
 
 input
